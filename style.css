@@ -57,7 +57,7 @@ body {
 
 .section-center {
     display: grid;
-    max-width: 1170px;
+    max-width: 1200px;
     margin: 0 auto;
     justify-items: center;
     gap: 3rem 2rem;
@@ -65,7 +65,7 @@ body {
 }
 
 .image {
-    height: 150px;
+    height: 140px;
     object-fit: cover;
     width: 100%;
     display: block;
@@ -75,7 +75,7 @@ body {
 
 .menu-item {
     display: inherit;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 210px 1fr;
     gap: 0 2rem;
     max-width: 40rem;
 }
