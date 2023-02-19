@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@300&family=Source+Sans+Pro&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    background-color: hsl(210, 36%, 96%);
+    color: #222;
+}
+
+.menu {
+    padding: 1.5rem 0;
+}
+
+.heading {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.heading h2 {
+    margin-bottom: 0.4rem;
+    font-weight: bold;
+}
+
+.underline {
+    margin-top: 0;
+    border: 3px solid rgb(203, 120, 120);
+    width: 5rem;
+    margin: auto;
+}
+
+.head-btn {
+    display: flex;
+    margin: 1.3rem 0 3rem 0;
+    padding: 0.7rem 0 0.9rem 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-btn {
+    padding: 0.2rem 0.6rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.02rem;
+    margin: 0 0.5rem;
+    background: transparent;
+    border-radius: 10px;
+    border: 2px solid rgb(187, 121, 121);
+    cursor: pointer;
+}
+
+.filter-btn:hover {
+    background-color: rgb(245, 175, 175);
+    transform: scale(1.1);
+}
+
+.section-center {
+    display: grid;
+    max-width: 1170px;
+    margin: 0 auto;
+    justify-items: center;
+    gap: 3rem 2rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.image {
+    height: 150px;
+    object-fit: cover;
+    width: 100%;
+    display: block;
+    border: 5px solid rgb(187, 121, 121);
+    border-radius: 10px;
+}
+
+.menu-item {
+    display: inherit;
+    grid-template-columns: 200px 1fr;
+    gap: 0 2rem;
+    max-width: 40rem;
+}
+
+.item-info {
+    /* border: 1px solid black; */
+    max-width: 330px;
+}
+
+.item-info header {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    border-bottom: 1px dotted black;
+    font-size: 1.1rem;
+    align-items: center;
+    letter-spacing: 0.12rem;
+    padding-bottom: 0.5rem;
+}
+
+.item-info header h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.item-info header h4:last-child {
+    color: rgb(159, 105, 105);
+}
+
+.item-text {
+    font-size: 1.1rem;
+    font-weight: 200;
+}
